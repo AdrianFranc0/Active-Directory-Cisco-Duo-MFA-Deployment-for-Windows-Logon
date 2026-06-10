@@ -56,7 +56,7 @@ Duo Test User Created<br/>
 
 **Description:**
 
-Initiated the enrollment process by sending an enrollment invitation to the user. This process mirrors how IT administrators onboard employees and register their authentication devices in production environments.
+Initiated the enrollment process by sending an enrollment invitation to the user. This process mirrors how employees are onboarded and register their authentication devices in production environments.
 
 The enrollment email allows the user to securely associate a device with their Duo account.
 
