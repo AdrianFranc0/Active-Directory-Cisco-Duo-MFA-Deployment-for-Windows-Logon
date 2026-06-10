@@ -1,3 +1,27 @@
+# Duo Authentication for Windows Logon Lab
+
+This lab simulates an enterprise deployment of Cisco Duo Multi-Factor Authentication (MFA) for Windows Logon using a domain-joined workstation.
+
+The environment consists of an Active Directory Domain Controller (Windows Server 2016), a Windows 10 Pro client workstation, and Cisco Duo Authentication for Windows Logon. The project demonstrates user enrollment, device registration, MFA enforcement, push-based authentication, and authentication monitoring.
+
+In addition to validating Duo functionality, the lab was designed to mirror how organizations centrally manage users and endpoints through Active Directory while leveraging solutions such as Group Policy, Microsoft Intune, Jamf, or endpoint management platforms to deploy and manage authentication software.
+
+---
+
+## Technologies Used
+
+- Active Directory Domain Services (AD DS)
+- Windows Server 2016
+- Windows 10 Pro
+- Cisco Duo
+- Duo Mobile
+- Multi-Factor Authentication (MFA)
+- Microsoft RDP Application
+- Active Directory Organizational Units (OU)
+- VirtualBox
+
+---
+
 ## Step 1 – Duo Administration Portal
 
 **Description:**
