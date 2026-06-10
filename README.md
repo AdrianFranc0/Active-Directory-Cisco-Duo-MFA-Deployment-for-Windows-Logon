@@ -57,3 +57,19 @@ Duo Mobile Device Registered<br/>
 <img src=https://i.imgur.com/WgLBEqm.png width="800" style="height:auto;" alt="User enrolled with iPhone registered in Duo"/>
 <br /><br />
 </p>
+
+
+# Progress Update
+
+Completed:
+
+- Duo Administration Portal Setup
+- User Creation
+- Enrollment Invitation
+- Device Registration
+
+Upcoming:
+
+- Enterprise Lab Topology
+- Windows Logon MFA Enforcement
+- Authentication Monitoring & Reporting
