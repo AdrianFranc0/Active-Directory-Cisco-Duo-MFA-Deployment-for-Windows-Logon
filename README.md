@@ -83,17 +83,55 @@ Duo Mobile Device Registered<br/>
 </p>
 
 
-# Progress Update
+---
 
-Completed:
+## Step 5 – Lab Topology
 
-- Duo Administration Portal Setup
-- User Creation
-- Enrollment Invitation
-- Device Registration
+**Description:**
 
-Upcoming:
+Built a domain-based lab environment to simulate how Cisco Duo MFA can be used to protect Windows logon authentication in an enterprise setting.
 
-- Enterprise Lab Topology
+The environment includes a Windows Server Active Directory Domain Controller, an Employees OU, and a domain-joined Windows 10 Pro client workstation. The topology also demonstrates how organizations may use centralized deployment methods such as Group Policy, Microsoft Intune, Jamf, or SCCM/MECM to deploy Duo Authentication for Windows Logon to managed endpoints.
+
+This step provides the foundation for enforcing MFA during Windows logon and validating authentication activity through Duo reporting.
+
+<p align="center">
+Active Directory + Duo MFA Deployment Topology<br/>
+<img src="https://i.imgur.com/jwAOwLH.png" width="800" style="height:auto;" alt="Active Directory and Cisco Duo MFA topology for Windows Logon"/>
+<br /><br />
+</p>
+
+---
+
+# 📅 Day 2 Progress Update
+
+Today's work focused on transitioning from basic Duo administration into a more realistic enterprise deployment scenario. Rather than only enrolling users and devices, I expanded the lab by introducing Active Directory and a domain-joined Windows endpoint to simulate how organizations deploy and manage Duo MFA for Windows logon authentication.
+
+### Key Accomplishments
+
+- Built an Active Directory lab environment.
+- Created an Employees OU and domain-joined workstation.
+- Designed a deployment topology representing enterprise deployment methods.
+- Installed and configured Duo Authentication for Windows Logon.
+- Integrated the Windows endpoint with the Duo Admin Portal.
+- Successfully validated Duo Push authentication during Windows sign-in.
+
+This phase moves the project beyond simple user enrollment and closer to a real-world implementation that IT and security teams may deploy to protect endpoint access.
+
+---
+
+# Upcoming (Day 3)
+
+The next phase of the project will focus on authentication validation, reporting, and monitoring.
+
+### Planned Activities
+
+- Demonstrate successful Duo Push authentication at Windows logon.
+- Review Duo authentication logs and reporting.
+- Analyze authentication events and login activity.
+- Document how security teams can use Duo logs for auditing and troubleshooting.
+- Complete project summary and enterprise use-case discussion.
+
+The goal is to demonstrate not only MFA deployment but also how administrators monitor, validate, and investigate authentication activity within a Cisco Duo environment.
 - Windows Logon MFA Enforcement
 - Authentication Monitoring & Reporting
