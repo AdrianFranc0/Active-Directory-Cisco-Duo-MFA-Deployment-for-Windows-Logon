@@ -97,7 +97,7 @@ This step provides the foundation for enforcing MFA during Windows logon and val
 
 <p align="center">
 Active Directory + Duo MFA Deployment Topology<br/>
-<img src="https://i.imgur.com/jwAOwLH.png" width="800" style="height:auto;" alt="Active Directory and Cisco Duo MFA topology for Windows Logon"/>
+<img src="https://i.imgur.com/bCXFqKq.png" width="800" style="height:auto;" alt="Active Directory and Cisco Duo MFA topology for Windows Logon"/>
 <br /><br />
 </p>
 
